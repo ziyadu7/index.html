@@ -33,7 +33,6 @@
     height: 40px;
 }
 .row1{
-    
     background-color:antiquewhite;
     display: flex;
     justify-content: center;
@@ -50,7 +49,7 @@
 .but{
     background-color: rgb(245, 94, 0);
     border: 0;
-    /* border-radius: 10%; */
+    
 }
 .cardH{
     font-size: 12px;
@@ -78,11 +77,6 @@
     display: flex;
     justify-content: center;
 }
-/* .rte{
-    zoom: 1;
-    line-height: 1.6em;
-    word-wrap: break-word;
-} */
 .mail-box1{
     border:1px solid tomato;
 }
@@ -121,9 +115,7 @@
     text-decoration: none;
     color: #414141;
 }
-.ind-z{
-    z-index: 100000;
-}
+
 .row{
-    --bs-gutter-x: 0rem !important;
+   --bs-gutter-x: 0rem !important;
 }
