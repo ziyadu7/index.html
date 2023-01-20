@@ -33,6 +33,7 @@
     height: 40px;
 }
 .row1{
+    
     background-color:antiquewhite;
     display: flex;
     justify-content: center;
@@ -122,4 +123,7 @@
 }
 .ind-z{
     z-index: 100000;
+}
+.row{
+    --bs-gutter-x: 0rem !important;
 }
