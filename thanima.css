@@ -9,10 +9,6 @@
     transform: scale(1.05);
     transition: 1;
 }
-.phead{
-    display: flex;
-    justify-items: center;
-}
 .nav-1pic{
     overflow: hidden;
 }
@@ -119,3 +115,16 @@
 .row{
    --bs-gutter-x: 0rem !important;
 }
+
+.by-cat > .row {
+    gap: 3rem;
+    row-gap: 4rem;
+}
+
+@media (max-width:765px) {
+    .overflow-hidden{
+        display: none;
+    }
+}
+
+
