@@ -1,0 +1,125 @@
+
+.svgcont{
+    width: 25px;
+}
+.imghead{
+    width: 230px;
+}
+.forpichover:hover{
+    transform: scale(1.05);
+    transition: 1;
+}
+.phead{
+    display: flex;
+    justify-items: center;
+}
+.nav-1pic{
+    overflow: hidden;
+}
+.navfix{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+.nav-1{
+    padding: 0.5em 0;
+    font-size: 95%;
+    background-color: #e2e4ed;
+    color: #414141;
+    position: relative;
+    z-index: 100000;
+    margin: 0;
+    height: 40px;
+}
+.row1{
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.centerp{
+    font-size: 13px;
+}
+.pmain{
+    display: flex;
+}
+.centerp2{
+    font-size: 10px;
+}
+.but{
+    background-color: rgb(245, 94, 0);
+    border: 0;
+    /* border-radius: 10%; */
+}
+.cardH{
+    font-size: 12px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.SClink{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.SClink:hover{
+    color: tomato;
+}
+.submail{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.submaildiv{
+    display: flex;
+    justify-content: center;
+}
+/* .rte{
+    zoom: 1;
+    line-height: 1.6em;
+    word-wrap: break-word;
+} */
+.mail-box1{
+    border:1px solid tomato;
+}
+.mailbox1:focus{
+    border: black;
+}
+.joinW{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.joinW2{
+    display: flex;
+}
+.joinW a{
+    text-decoration: none;
+    color: #414141;
+}
+.footer{
+    background-color: #f3ede8;
+}
+.footbut-1{
+    border: 0;
+    background-color:transparent;
+}
+.but-clr{
+    
+    color: #414141;
+}
+.social-list{
+    list-style: none;
+}
+.SL-a a{
+    text-decoration: none;
+    color: #414141;
+}
+.ind-z{
+    z-index: 100000;
+}
